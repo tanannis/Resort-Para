@@ -34,7 +34,7 @@ p {
 }
 
 .text-primary {
-  color: #f7c08a;
+  color:#D2B48C;
 }
 
 .lead {
@@ -49,11 +49,12 @@ p {
   background: #333;
   padding: 13px 20px;
   border: none;
+  border-radius: 3px;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #f7c08a;
+  background: #D2B48C;
   color: #333;
 }
 
@@ -62,18 +63,18 @@ p {
   color: #333
 }
 
-.bg-dark {
-  background:  #333;
+.bg {
+  background: url("../img/pexels-rachel-claire-4577696.jpg") no-repeat center center/cover;
   color: #fff;
 }
 
 .bg-light {
-  background:  #f4f4f4;
+  background:#D3D3D3;
   color: #333;
 }
 
 .bg-primary {
-  background: #f7c08a;
+  background: #D2B48C;
   color:  #333;
 }
 
@@ -95,14 +96,13 @@ p {
 
 /* Navbar */
 #navbar {
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
   /* make the background show no matter what */
   overflow: auto;
 }
 
 #navbar a {
-  color: white;
+  color: #333
 }
 
 #navbar .logo {
@@ -135,7 +135,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  background: url("../img/pexels-pixabay-258154\ \(1\).jpg") no-repeat center center/cover;
   height: 600px;
 }
 
@@ -164,7 +164,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url("../img/photo-1.jpg") no-repeat;
+  background: url("../img/pexels-freemockupsorg-775219\ \(1\).jpg") no-repeat center center/cover;
   min-height: 100%;
 }
 
@@ -218,7 +218,7 @@ p {
 /* Testimonials */
 #testimonials {
   height: 100%;
-  background: url("../img/test-bg.jpg") no-repeat center center/cover;
+  background: url("../img/pexels-cyrus-venancio-1211611.jpg") no-repeat center ;
   padding-top: 40px;
 }
 
@@ -232,7 +232,7 @@ p {
   padding: 20px;
   margin-bottom: 40px;
   border-radius: 5px;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 #testimonials .testimonial img {
