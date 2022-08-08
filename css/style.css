@@ -126,11 +126,8 @@ p {
   text-align: center;
 }
 
-/* setting to a.current will keep below style for the nav tab when you are on the specific page */
-#navbar ul li a:hover,
-#navbar ul li a.current {
-  background: #444;
-  color: #f7c08a;
+#navbar ul li a:hover {
+  background: #fbe4c5;
 }
 
 /* Showcase */
@@ -267,7 +264,7 @@ p {
 #contact-form input:focus, 
 #contact-form textarea:focus {
   outline: none;
-  border-color: #f7c08a;
+  border-color: #D2B48C;
 }
 
 /* Footer */
