@@ -1,4 +1,4 @@
-# Hotel Website
+# Resort Para
 
 https://annis-hotel-website.netlify.app/
 
